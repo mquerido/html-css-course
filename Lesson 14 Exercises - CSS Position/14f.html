@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>
+            Exercise 14f
+        </title>
+        <style>
+            .outer-sidebar {
+                position: fixed;
+                top: 0px;
+                bottom: 0px;
+                left: 0px;
+                width: 60px;
+                background-color: rgb(39, 39, 39);
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+            }
+            
+            img {
+                height: 40px;
+                widtH: 40px;
+                border-radius: 20px;
+                object-fit: cover;
+                object-position: center;
+                margin-top: 10px;
+            }
+
+            .inner-sidebar {
+                position: fixed;
+                top: 0px;
+                bottom: 0px;
+                left: 60px;
+                width: 180px;
+                background-color: rgba(39, 39, 39, 0.9);
+            }
+
+            .header {
+                display: flex;
+                justify-content: space-between;
+                align-items: center;
+                padding-left: 20px;
+                padding-top: 14px;
+                padding-right: 20px;
+                padding-bottom: 4px;
+            }
+
+            p {
+                font-family: Arial;
+                color: rgb(160, 160, 160);
+                font-size: 14px;
+                margin: 0px;
+            }
+
+            .hash {
+                padding-left: 20px;
+                font-size: 16px;
+                margin-bottom: 15px;
+            }
+        </style>
+        <body style="height: 3000px; padding-left: 250px; background-color: gray;">
+            <div class="outer-sidebar">
+                <img style="margin-top: 20px;" src="beagle.jpg">
+                <img src="dachshund.jpg">
+                <img src="akita.jpg">
+            </div>
+            <div class="inner-sidebar">
+                <div class="header">
+                    <p style="
+                    color: white;
+                    ">INFO</p>
+                    <p style="
+                    font-size: 24px;
+                    ">+</p>
+                </div>
+                <p class="hash"># new-videos</p>
+                <p class="hash"># updates</p>
+                <p class="hash"># faq</p>
+            </div>
+        </body>
+    </head>
+</html>

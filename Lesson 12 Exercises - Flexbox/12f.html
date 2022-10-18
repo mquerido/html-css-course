@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>
+            Exercise 12f
+        </title>
+        <style>
+            .header {
+                height: 40px;
+                display: flex;
+                flex-direction: row;
+                justify-content: space-between;
+                background-color: rgb(139, 86, 182);
+                align-items: center;
+                width: 700px;
+            }
+
+            .middle-section {
+                flex: 1;
+                margin-left: 50px;
+                margin-right: 50px;
+            }
+
+            .search-bar {
+                font-size: 13px;
+                flex: 1;
+                width: 400px;
+                padding-top: 5px;
+                padding-bottom: 5px;
+                padding-left: 18px;
+                padding-right: 18px;
+                border: none;
+                border-radius: 15px;
+            }
+
+            p {
+                font-family: Arial;
+                font-size: 14px;
+                font-weight: bold;
+                color: white;
+                margin-left: 14px;
+            }
+
+            button {
+                font-size: 14px;
+                border-width: 1px;
+                border-color: white;
+                border-style: solid;
+                background-color: rgb(139, 86, 182);
+                color: white;
+                margin-right: 14px;
+                padding-top: 5px;
+                padding-bottom: 5px;
+                padding-left: 14px;
+                padding-right: 14px;
+            }
+        </style>
+    </head>
+    <body>
+        <div class="header">
+            <div class="left-section">
+                <p>Home</p>
+            </div>
+            <div>
+                <input class="search-bar" type="text" placeholder="Search">
+            </div>
+            <div>
+                <button>Download</button>
+            </div>
+        </div>
+    </body>
+</html>

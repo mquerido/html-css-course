@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>
+            Exercise 15f
+        </title>
+        <style>
+            .container {
+                height: 300px;
+                position: relative;
+                display: inline-block;
+            }
+
+            .clothes {
+                height: 100%;
+            }
+
+            .sale {
+                position: absolute;
+                top: 8px;
+                right: 0px;
+                background-color: black;
+                color: white;
+                font-family: Arial;
+                font-size: 14px;
+                padding-top: 5px;
+                padding-bottom: 5px;
+                padding-left: 12px;
+                padding-right: 12px;
+            }
+
+            .buy {
+                position: absolute;
+                bottom: 0px;
+                right: 0px;
+                left: 0px;
+                height: 100px;
+                background-color: rgba(255, 255, 255, 0.6);
+                display: flex;
+                align-items: center;
+                justify-content: center;
+            }
+
+            .button {
+                font-size: 16px;
+                border-width: 1px;
+                border-style: solid;
+                background-color: white;
+                padding-left: 20px;
+                padding-right: 20px;
+                padding-top: 10px;
+                padding-bottom: 10px;
+            }
+        </style>
+    </head>
+    <body style="
+    height: 3000px;
+    ">
+        <div class="container">
+            <img class="clothes" src="clothes.webp">
+            <div class="sale">
+                20% OFF
+            </div>
+            <div class="buy">
+                <button class="button">Add to Cart</button>
+            </div>
+        </div>
+    </body>
+</html>

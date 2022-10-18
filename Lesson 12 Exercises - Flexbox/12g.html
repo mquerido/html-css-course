@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>
+            Exercise 12g
+        </title>
+        <style>
+            .panel {
+                display: flex;
+                flex-direction: row;
+                width: 350px;
+                justify-content: space-between;
+                align-items: center;
+                margin-bottom: 14px;
+                margin-top: 14px;
+            }
+
+            .info {
+                display: flex;
+                flex-direction: column;
+                margin-left: 14px;
+            }
+
+            img {
+                height: 50px;
+                width: 50px;
+                object-fit: cover;
+                object-position: center;
+                border-radius: 25px;
+                margin-left: 14px;
+            }
+
+            p {
+                font-family: Arial;
+                margin: 0px;
+            }
+
+            .name {
+                font-size: 14px;
+                font-weight: bold;
+                margin-bottom: 3px;
+            }
+
+            .extra-1, .extra-2 {
+                font-size: 14px;
+                color: gray;
+            }
+
+            .extra-1 {
+                margin-bottom: 3px;
+            }
+
+            .extra-2 {
+                font-size: 12px;
+            }
+
+            button {
+                font-size: 14px;
+                font-weight: bold;
+                color: white;
+                background-color: rgb(77, 150, 245);
+                border: none;
+                padding-top: 6px;
+                padding-bottom: 6px;
+                padding-left: 8px;
+                padding-right: 8px;
+                border-radius: 4px;
+                margin-right: 14px;
+            }
+
+            .everyth {
+                display: flex;
+                flex-direction: column;
+                width: 350px;
+            }
+        </style>
+    </head>
+    <body>
+        <div class="everyth">
+            <div class="panel">
+                <img src="beagle.jpg">
+
+                <div class="info" style="
+                display: flex;
+                flex: 1;
+                ">
+                    <p class="name">Andy</p>
+                    <p class="extra-1">Lovable Beagle</p>
+                    <p class="extra-2">Popular</p>
+                </div>
+
+                <div>
+                    <button>
+                        Follow
+                    </button>
+                </div>
+            </div>
+
+            <div class="panel">
+                <img src="dachshund.jpg">
+
+                <div class="info" style="
+                display: flex;
+                flex: 1;
+                ">
+                    <p class="name">TJ</p>
+                    <p class="extra-1">Playful Dachshund</p>
+                    <p class="extra-2">Popular</p>
+                </div>
+
+                <div>
+                    <button>
+                        Follow
+                    </button>
+                </div>
+            </div>
+
+            <div class="panel">
+                <img src="akita.jpg">
+
+                <div class="info" style="
+                display: flex;
+                flex: 1;
+                ">
+                    <p class="name">Mochi</p>
+                    <p class="extra-1">Adorable Akita</p>
+                    <p class="extra-2">Popular</p>
+                </div>
+
+                <div>
+                    <button>
+                        Follow
+                    </button>
+                </div>
+            </div>
+        </div>
+    </body>
+</html>

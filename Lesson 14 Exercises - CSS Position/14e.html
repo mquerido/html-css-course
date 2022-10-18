@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>
+            Exercise 14e
+        </title>
+        <style>
+            .header {
+                display: flex;
+                position: fixed;
+                top: 0px;
+                left: 0px;
+                right: 0px;
+                height: 55px;
+                background-color: white;
+                align-items: center;
+                justify-content: space-between;
+            }
+
+            .info {
+                display: flex;
+                align-items: center;
+                margin-left: 70px;
+            }
+
+            p {
+                font-family: Arial;
+                margin: 0px;
+            }
+
+            .name {
+                font-size: 16px;
+                font-weight: bold;
+                margin-left: 12px;
+            }
+
+            img {
+                height: 40px;
+                width: 40px;
+                object-fit: cover;
+                object-position: center;
+                border-radius: 20px;
+            }
+
+            .buttons {
+                margin-right: 70px;
+            }
+
+            .friend, .msg {
+                height: 40px;
+                width: 110px;
+                border: none;
+                font-size: 16px;
+                font-weight: bold;
+                border-radius: 8px;
+                background-color: rgb(224, 224, 224);
+            }
+
+            .friend {
+                color: white;
+                background-color: rgb(56, 123, 247);
+                margin-right: 8px;
+            }
+        </style>
+        <body style="height: 3000px; padding-top: 80px; background-color: gray;">
+            <div class="header">
+                <div class="info">
+                    <img src="beagle.jpg">
+                    <p class="name">
+                        Andy the Beagle
+                    </p>
+                </div>
+                <div class="buttons">
+                    <button class="friend">
+                        Add Friend
+                    </button>
+                    <button class="msg">
+                        Message
+                    </button>
+                </div>
+            </div>
+        </body>
+    </head>
+</html>
