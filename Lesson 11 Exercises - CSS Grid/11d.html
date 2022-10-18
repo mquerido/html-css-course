@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>
+            Exercise 11d
+        </title>
+        <style>
+            .friend-preview {
+                box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.2);
+                width: 100%;
+                border: none;
+            }
+            
+            img {
+                width: 200px;
+                height: 200px;
+                object-fit: cover;
+                object-position: center;
+                margin-bottom: 4px;
+                margin-top: 0px;
+            }
+
+            p {
+                font-family: Arial;
+                margin: 0px;
+            }
+
+            .name {
+                font-size: 20px;
+                font-weight: bold;
+                margin-top: 0px;
+                margin-left: 8px;
+                margin-bottom: 4px;
+            }
+
+            .mutuals {
+                font-size: 14px;
+                color: rgb(99, 99, 99);
+                margin-left: 4px;
+            }
+
+            .button {
+                background-color: rgb(67, 141, 253);
+                color: white;
+                font-size: 14px;
+                border: none;
+                padding-top: 10px;
+                padding-bottom: 10px;
+                padding-left: 20px;
+                padding-right: 20px;
+                border-radius: 6px;
+                cursor: pointer;
+                transition: opacity 150ms;
+                margin-top: 4px;
+                margin-left: 8px;
+                margin-bottom: 8px;
+            }
+
+            .button:hover {
+                opacity: 0.7;
+            }
+
+            .button:active {
+                opacity: 0.4;
+            }
+
+            .mutuals-picture {
+                width: 35px;
+                height: 35px;
+                object-fit: cover;
+                object-position: center;
+                border-radius: 18px;
+                margin-left: 8px;
+                margin-bottom: 0px;
+            }
+
+            .friend-grid {
+                display: grid;
+                grid-template-columns: 200px 200px 200px;
+                column-gap: 20px;
+            }
+
+            .info {
+                display: grid;
+                grid-template-columns: 50px 1fr;
+                align-items: center;
+                margin-bottom: 4px;
+            }
+        </style>
+    </head>
+    <body>
+        <div class="friend-grid">
+            <div class="friend-preview">
+                <img src="beagle.jpg">
+                <p class="name">Andy</p>
+                <div class="info">
+                    <img class="mutuals-picture" src="husky.jpg">
+                    <p class="mutuals">108 mutual friends</p>
+                </div>
+                <button class="button">Add Friend</button>
+            </div>
+
+            <div class="friend-preview">
+                <img src="dachshund.jpg">
+                <p class="name">TJ</p>
+                <div class="info">
+                    <img class="mutuals-picture" src="husky.jpg">
+                    <p class="mutuals">62 mutual friends</p>
+                </div>
+                <button class="button">Add Friend</button>
+            </div>
+
+            <div class="friend-preview">
+                <img src="akita.jpg">
+                <p class="name">Mochi</p>
+                <div class="info">
+                    <img class="mutuals-picture" src="husky.jpg">
+                    <p class="mutuals">384 mutual friends</p>
+                </div>
+                <button class="button">Add Friend</button>
+            </div>
+        </div>
+    </body>
+</html>
